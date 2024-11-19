@@ -37,19 +37,19 @@ def button_operator(operator):
 
 # you might want to consider adding documentation on a line by line basis since
 # this is a critical function for the program
-def button_equal():
-    second_number = e.get()
-    e.delete(0, END)
-    if num_operator == '+':
-        e.insert(0, f_num + int(second_number))
-    elif num_operator == '*':
-        e.insert(0, f_num * int(second_number))
-    elif num_operator == '/':
-        e.insert(0, f_num / int(second_number))
-    elif num_operator == '-':
-        e.insert(0, f_num - int(second_number))
+def button_equal(): #creates a function
+    second_number = e.get() # retrievs the second number that the user entered
+    e.delete(0, END)  # clears the entry field to show the result
+    if num_operator == '+':  # checks if selected operation is addtion
+        e.insert(0, f_num + int(second_number))  # adds first entered number to second entered number and displays the result
+    elif num_operator == '*':  # checks if selected operation is multiplication
+        e.insert(0, f_num * int(second_number))  #  multiplies first entered number with second entered number and displays the result
+    elif num_operator == '/': # checks if selected operation is addtion
+        e.insert(0, f_num / int(second_number))  # divides first entered number to second entered number and displays the result
+    elif num_operator == '-':  # checks if selected operation is addtion
+        e.insert(0, f_num - int(second_number))  # subtracts first entered number from second entered number and displays the result
     else:
-        e.insert(0, "Invalid!!!")
+        e.insert(0, "Invalid!!!")  # if anything selected wrong it displays "Invalid"
 
 # Document what the following lines of code do here
 #
