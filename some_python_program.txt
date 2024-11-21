@@ -61,26 +61,75 @@ def button_equal(): #creates a function
 # parameter. Just like a normal function, a Lambda function can have multiple
 # arguments with one expression. 
 
-button_1 =  Button(root, text="1", padx=40, pady=20, command=lambda: button_click(1))
-button_2 =  Button(root, text="2", padx=40, pady=20, command=lambda: button_click(2))
-button_3 =  Button(root, text="3", padx=40, pady=20, command=lambda: button_click(3))
+button_1 =  Button(root, text="1", padx=40, pady=20, command=lambda: button_click(1))  
+# creates the button for number 1 and associate it with the button_click function
+# button_1 will display the number "1" on the calculator and call button_click(1) when pressed.
+
+button_2 =  Button(root, text="2", padx=40, pady=20, command=lambda: button_click(2))  
+# create the button for the number 2 and associate it with the button_click function 
+# button_2 will display the number "2" and call button_click(2) when pressed
+
+button_3 =  Button(root, text="3", padx=40, pady=20, command=lambda: button_click(3)) 
+# create the button for the number 3 and associate it with the button_click function
+# button_3 will display the number "3" and call button_click(3) when pressed
+
 button_4 =  Button(root, text="4", padx=40, pady=20, command=lambda: button_click(4))
-button_5 =  Button(root, text="5", padx=40, pady=20, command=lambda: button_click(5))
-button_6 =  Button(root, text="6", padx=40, pady=20, command=lambda: button_click(6))
-button_7 =  Button(root, text="7", padx=40, pady=20, command=lambda: button_click(7))
-button_8 =  Button(root, text="8", padx=40, pady=20, command=lambda: button_click(8))
-button_9 =  Button(root, text="9", padx=40, pady=20, command=lambda: button_click(9))
-button_0 =  Button(root, text="0", padx=40, pady=20, command=lambda: button_click(0))
+# create the button for the number 4 and associate it with the button_click function
+# button_4 will display the number "4" and call button_click(4) when pressed
+
+button_5 =  Button(root, text="5", padx=40, pady=20, command=lambda: button_click(5)) 
+# Create the button for the number 5 and associate it with the button_click function
+# button_5 will display the number "5" and call button_click(5) when pressed
+
+button_6 =  Button(root, text="6", padx=40, pady=20, command=lambda: button_click(6))  
+# create the button for the number 6 and associate it with the button_click function
+# button_6 will display the number "6" and call button_click(6) when pressed
+
+button_7 =  Button(root, text="7", padx=40, pady=20, command=lambda: button_click(7)) 
+# create the button for the number 7 and associate it with the button_click function
+# button_7 will display the number "7" and call button_click(7) when pressed
+
+button_8 =  Button(root, text="8", padx=40, pady=20, command=lambda: button_click(8)) 
+# create the button for the number 8 and associate it with the button_click function
+# button_8 will display the number "8" and call button_click(8) when pressed
+
+button_9 =  Button(root, text="9", padx=40, pady=20, command=lambda: button_click(9)) 
+# create the button for the number 9 and associate it with the button_click function
+# button_9 will display the number "9" and call button_click(9) when pressed
+
+button_0 =  Button(root, text="0", padx=40, pady=20, command=lambda: button_click(0)) 
+# create the button for the number 0 and associate it with the button_click function
+# button_0 will display the number "0" and call button_click(0) when pressed
+
 button_add =  Button(root, text="+", padx=39, pady=20, command=lambda: button_operator("+"))
+# create the button for the addition operator and associate it with the button_operator function
+# button_add will display the "+" symbol and call button_operator("+") when pressed
+
 button_equal =  Button(root, text="   =   ", padx=79, pady=20, command=button_equal)
+# create the button for the "equal" operator and associate it with the button_equal function
+# button_equal will display the "=" symbol and call the button_equal function when pressed
+
 button_clear =  Button(root, text="Clear", padx=79, pady=20, command=button_clear)
+# create the button to clear the entry field and associate it with the button_clear function
+# button_clear will display the word "Clear" and call the button_clear function when pressed
+
+
 
 # Document what the following lines of code do here
 
 # See the description of a Lambda function above
 button_subtract =  Button(root, text="-", padx=40, pady=20, command=lambda: button_operator("-"))
+# create the button for the subtraction operator and associate it with the button_operator function
+# button_subtract will display the "-" symbol (for subtraction) on the screen and call button_operator("-") when pressed
+
 button_multiply =  Button(root, text="*", padx=40, pady=20, command=lambda: button_operator("*"))
+# create the button for the multiplication operator and associate it with the button_operator function
+# button_multiply will display the "*" symbol (for multiplication) on the screen and call button_operator("*") when pressed
+
 button_divide =  Button(root, text="/", padx=40, pady=20, command=lambda: button_operator("/"))
+# create the button for the division operator and associate it with the button_operator function
+# button_divide will display the "/" symbol (for division) on the screen and call button_operator("/") when pressed
+
 
 # Document what the following lines of code do here
 
