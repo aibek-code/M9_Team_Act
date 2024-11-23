@@ -1,9 +1,10 @@
-# Program description goes here
+# This program is a simple calculator application built using the Tkinter library in Python, which creates a graphical user interface (GUI). The calculator allows users to perform basic arithmetic operations like addition, subtraction, multiplication, and division.
 # Updated on: 11/19/2024
 # Updated by: 11/23/24
 #
 #
 # Document what the following lines of code do here
+
 from tkinter import * #Importing the tkinter module to create the GUI for the program
 
 root = Tk() #creating main window for the application
